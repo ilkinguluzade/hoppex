@@ -1,0 +1,1346 @@
+
+@media only screen and (max-width: 5000px){
+
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+
+
+ 
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+
+
+
+}
+
+
+
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Header Style one Css ***/ 
+.header-contact-info ul li {
+    padding-right: 16px;
+    margin-right: 15px;
+} 
+.header-social-link .social-link ul li {
+    margin-right: 20px;
+}
+.header-shape-bg {
+    bottom: -50px;
+    height: 150px;
+    background-size: contain;
+}
+
+/*** About Style1 Area Css ***/ 
+.about-style1__content {
+    padding-left: 0px;
+}
+.about-style1__image1 {
+    max-width: 730px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+    margin-top: 63px;
+}
+.about-style1__content.martop60 {
+    margin-top: 60px;
+}
+
+
+/*** Slogan Area Css ***/ 
+.slogan-area {
+    padding-bottom: 400px;
+}
+.slogan__content {
+    max-width: 530px;
+    width: 100%;
+    float: none;
+    padding-top: 143px;
+    padding-bottom: 100px;
+}
+
+/*** Fact Counter Area Css ***/ 
+.fact-counter_box {
+    max-width: 730px;
+    float: none;
+    margin-top: 50px;
+}
+
+/*** Project Style1 Area Css ***/
+.project-style1-area {
+    padding: 150px 0px 90px;
+} 
+.single-project-item {
+    margin-bottom: 52px;
+}
+
+
+/*** Footer Area Css ***/
+.subscribe-box-house {
+    top: 60px;
+}
+.subscribe-box .inner-title h2 br{
+    display: none;
+}
+.footer .shape1 {
+    display: none;
+}
+
+
+
+/*** Header Style Two Css ***/
+.header-style2__left-bg {
+    right: -30px;
+}
+.header-contact-info--two ul li {
+    padding-right: 15px;
+    margin-right: 16px;
+}
+.header-contact-info--two ul li .inner .title {
+    padding-left: 10px;
+}
+.header-style2__right .btns-box {
+    margin-left: 15px;
+}
+.header-bottom .outer-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*** Project Form Area Css ***/
+.project-form-box .single-box {
+    max-width: 50%;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.project-form-box .single-box.button-box{
+    margin-top: 8px;
+    margin-bottom: 0; 
+    max-width: 100%; 
+}
+.project-form-box button {
+    width: 250px;
+    margin: 0px auto 0;
+}
+
+/*** Project Details Area Css ***/
+.project-features-box .title {
+    margin-bottom: 10px;
+}
+.project-features-box ul{
+    margin-top: 22px;
+}
+
+
+/*** Mission Area Css ***/
+.mission-content-box {
+    padding-right: 0px;
+}
+.mission-image-box {
+    max-width: 730px;
+    float: none;
+    padding-left: 160px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+/*** Blog Page Css ***/
+.sidebar-content-box {
+    margin-top: 100px;
+}
+
+.blog-details-text-box1 .img-box {
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+
+
+
+
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+/*** Header Style one Css ***/ 
+.header-top {
+    padding: 20px 0 19px;
+}
+.header-top .outer-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-contact-info ul li {
+    padding-right: 0;
+    margin-right: 0;
+    float: none;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.header-contact-info ul li:last-child{
+    margin-bottom: 0;
+}
+.header-contact-info ul li:before {
+    display: none;
+}
+.header-social-link .social-link ul li {
+    margin-right: 20px;
+}
+.header-top__right {
+    margin-top: 10px;
+}
+.header-shape-bg {
+    bottom: -50px;
+    height: 150px;
+    background-size: contain;
+}
+
+/*** Features Style1 Area Css ***/ 
+.single-features-style1 {
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+/*** Features Style1 Area Css ***/ 
+.project-style1-area {
+    padding: 120px 0px 150px;
+}
+.single-project-item {
+    margin-bottom: 62px;
+}
+.project-style1__button {
+    padding-top: 0px;
+}
+
+/*** Choose Style1 Area Css ***/ 
+.choose-style1-area .shape1 {
+    display: none;
+}
+.choose-style__content {
+    padding: 70px 70px 62px;
+    float: none;
+    margin-top: 60px;
+}
+
+/*** About Style1 Area Css ***/ 
+.about-style1__content {
+    padding-left: 0px;
+}
+.about-style1__image1 {
+    max-width: 730px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+    margin-top: 63px;
+}
+.about-style1__content.martop60 {
+    margin-top: 60px;
+}
+
+
+/*** Slogan Area Css ***/ 
+.slogan-area {
+    padding-bottom: 300px;
+}
+.slogan__content {
+    max-width: 530px;
+    width: 100%;
+    float: none;
+    padding-top: 143px;
+    padding-bottom: 100px;
+}
+.slogan-area .shape img{
+    width: 600px;
+}
+.slogan-area .shape2 img {
+    width: 250px;
+}
+
+/*** Fact Counter Area Css ***/ 
+.fact-counter_box {
+    max-width: 730px;
+    float: none;
+    margin-top: 50px;
+}
+
+/*** Team Style1 Area Css ***/ 
+.team-style1__top-title {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0;
+    padding-bottom: 60px;
+}
+.team-style1__top-title .btns-box {
+    top: 0;
+    margin-top: 30px;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style1__image {
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+/*** Footer Area Css ***/
+.subscribe-box-house {
+    display: none;
+}
+.subscribe-box .inner-title h2 br{
+    display: none;
+}
+.footer .shape1 {
+    display: none;
+}
+.single-footer-widget .our-company-info {
+    max-width: 100%;
+    width: 100%;
+}
+.single-footer-widget.margin__top {
+    margin-top: 0px;
+}
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}
+
+
+
+/*** Header Style Two Css ***/
+.header-contact-info--two {
+    display: none;
+}
+.header-bottom .outer-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*** Features Style2 Area Css ***/
+.features-style2-area .single-features-style1 {
+    margin-top: -100px;
+    margin-bottom: 130px;
+}
+
+/*** About Style2 Area Css ***/
+.about-style2-area.rs-pdtop20{
+    padding-top: 20px;
+}
+
+/*** Project Style2 Area Css ***/
+.project-style2-area.rspdtop150{
+    padding-top: 150px;
+}
+
+/*** Choose Style2 Area Css ***/
+.choose-style__content--style2 {
+    padding: 0;
+}
+
+/*** Project Form Area Css ***/
+.project-form-box .single-box {
+    max-width: 50%;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.project-form-box .single-box.button-box{
+    margin-top: 8px;
+    margin-bottom: 0; 
+    max-width: 100%; 
+}
+.project-form-box button {
+    width: 250px;
+    margin: 0px auto 0;
+}
+
+/*** Project Details Area Css ***/
+.project-features-box .title {
+    margin-bottom: 10px;
+}
+.project-features-box ul{
+    margin-top: 22px;
+}
+.project-details-sidebar {
+    margin-top: 100px;
+    padding-left: 0px;
+}
+
+/*** Mission Area Css ***/
+.mission-content-box {
+    padding-right: 0px;
+}
+.mission-image-box {
+    max-width: 730px;
+    float: none;
+    padding-left: 160px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+/*** Award Area Css ***/
+.award-block .title-holder h3 a br{
+    display: none;
+}
+
+/*** Team Details Area Css ***/
+.team-details-content {
+    padding-top: 40px;
+}
+
+/*** Blog Page Css ***/
+.sidebar-content-box {
+    margin-top: 100px;
+}
+
+/*** Blog Details Page ***/
+.blog-details-text-box1 .img-box {
+    max-width: 700px;
+    margin-top: 50px;
+}
+.single-blog-style1--standard .text-holder .blog-title {
+    font-size: 28px;
+}
+
+/***Contact Info Area ***/
+.single-contact-info-box{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.sec-title {
+    padding-bottom: 52px;   
+}    
+.sec-title h2 {
+    font-size: 34px;
+}    
+.sec-title h2 br{
+    display: none;
+}    
+
+
+/*** Header Style one Css ***/ 
+.header-top {
+    display: none;
+}
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-shape-bg {
+    display: none;
+}
+.header-right {
+    display: none;
+}
+
+/*** Features Style1 Area Css ***/ 
+.single-features-style1 {
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+/*** Features Style1 Area Css ***/ 
+.project-style1-area {
+    padding: 120px 0px 150px;
+}
+.single-project-item {
+    margin-bottom: 62px;
+}
+.project-style1__button {
+    padding-top: 0px;
+}
+
+/*** Choose Style1 Area Css ***/ 
+.choose-style1-area .shape1 {
+    display: none;
+}
+
+.choose-style1__title {
+    text-align: center;
+}
+.choose-style__content {
+    padding: 70px 30px 62px;
+    float: none;
+    margin-top: 60px;
+}
+.choose-style__content li .inner {
+    padding-left: 0px;
+}
+.choose-style__content li .inner .icon {
+    position: static;
+    margin: 0 auto;
+}
+.choose-style__content li .inner .text {
+    margin-top: 25px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+/*** About Style1 Area Css ***/
+.about-style1__content.martop60 {
+    margin-top: 60px;
+} 
+.about-style1__content {
+    padding-left: 0px;
+}
+.our-achive-box-single {
+    margin-bottom: 30px;
+}
+.about-style1__image1 {
+    max-width: 730px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    margin-top: 33px;
+}
+.about-style1__image1 .content-box {
+    width: 280px;
+    padding: 39px 30px 38px;
+}
+.about-style1__image1 .content-box h3 {
+    font-size: 22px;
+    line-height: 40px;
+}
+.about-style1__image1.martop0 {
+    margin-top: 0;
+}
+
+
+
+/*** Slogan Area Css ***/ 
+.slogan-area {
+    padding-bottom: 200px;
+}
+.slogan__content {
+    max-width: 530px;
+    width: 100%;
+    float: none;
+    padding-top: 143px;
+    padding-bottom: 100px;
+}
+.slogan__content h2 br{
+    display: none;
+}
+.slogan-area .shape img{
+    width: 300px;
+}
+.slogan-area .shape2 img {
+    width: 250px;
+}
+
+/*** Fact Counter Area Css ***/ 
+.fact-counter_box {
+    max-width: 330px;
+    float: none;
+    margin-top: 50px;
+}
+.single-fact-counter {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+}
+
+/*** Team Style1 Area Css ***/ 
+.team-style1__top-title {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0;
+    padding-bottom: 60px;
+}
+.team-style1__top-title .btns-box {
+    top: 0;
+    margin-top: 32px;
+}
+
+/*** Faq Style1 Area Css ***/ 
+.faq-style1__image {
+    margin-top: 100px;
+    margin-right: 0;
+}
+.accordion-box .block .acc-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*** Blog Style1 Area Css ***/ 
+.single-blog-style1 .text-holder {
+    padding: 37px 30px 34px;
+}
+
+/*** Footer Area Css ***/
+.subscribe-form input[type="email"] {
+    padding: 0 30px;
+    padding-right: 30px;
+}
+.subscribe-form button {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+.subscribe-form button.btn-one:after {
+    background-color: rgba(var(--thm-base-rgb), .10);
+}
+
+.subscribe-box-house {
+    display: none;
+}
+.subscribe-box .inner-title h2 br{
+    display: none;
+}
+.footer .shape1 {
+    display: none;
+}
+.single-footer-widget .our-company-info {
+    max-width: 100%;
+    width: 100%;
+}
+.single-footer-widget.margin__top {
+    margin-top: 0px;
+}
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}
+.single-footer-widget .title {
+    margin-bottom: 25px;
+}
+
+.footer-bottom .bottom-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-bottom .bottom-inner .copyright {
+    margin-bottom: 11px;
+}
+.footer .shape2 img{
+    opacity: 0.70;
+}
+
+
+
+/*** Header Style Two Css ***/
+.header-style2__left {
+    width: 100%;
+    text-align: center;
+}
+.header-style2__left-bg {
+    display: none;
+}
+.header-style2__right {
+    display: none;
+}
+.header-contact-info--two {
+    display: none;
+}
+.serach-button-style2 {
+    width: 180px;
+}
+.header-bottom .outer-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*** Features Style2 Area Css ***/
+.features-style2-area .single-features-style1 {
+    margin-top: -100px;
+    margin-bottom: 130px;
+}
+
+/*** About Style2 Area Css ***/
+.about-style2-area.rs-pdtop20{
+    padding-top: 20px;
+}
+.about-style2__image-box {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.about-style2__image-box .content-box {
+    width: 200px;
+    padding: 30px 20px 30px;
+}
+
+/*** Project Style2 Area Css ***/
+.project-style2-area.rspdtop150{
+    padding-top: 150px;
+}
+
+/*** Choose Style2 Area Css ***/
+.choose-style__content--style2 {
+    padding: 0;
+}
+.choose-style__content--style2 ul li {
+    padding: 50px 20px 43px;
+}
+
+
+  
+
+/*** Header Style Three Css ***/
+.header--style3 {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+/*** Breadcrumb Area Css ***/
+.breadcrumb-area {
+    padding: 184px 0 193px;
+}
+.breadcrumb-area .title h2 {
+    font-size: 45px;
+}
+/*** Skill Area Css ***/
+.skill-content-box {
+    margin-top: -6px;
+    padding-right: 0px;
+    text-align: center;
+}
+.progress-levels {
+    margin-top: 30px;
+    padding-left: 0px;
+}
+
+/*** Project Form Area Css ***/
+.project-form-box .single-box {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.project-form-box .single-box.button-box{
+    margin-top: 8px;
+    margin-bottom: 0; 
+    max-width: 100%; 
+}
+.project-form-box button {
+    width: 250px;
+    margin: 0px auto 0;
+}
+
+/*** Project Details Area Css ***/
+.project-features-box .title {
+    margin-bottom: 10px;
+}
+.project-features-box ul{
+    margin-top: 22px;
+}
+.project-details-sidebar {
+    margin-top: 100px;
+    padding-left: 0px;
+}
+
+.project-info-box {
+    padding: 50px 25px 42px;
+}
+.project-details-form {
+    padding: 50px 25px 50px;
+}
+
+
+/*** Mission Area Css ***/
+.mission-content-box {
+    padding-right: 0px;
+}
+.mission-image-box {
+    max-width: 730px;
+    float: none;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+/*** Award Area Css ***/
+.award-block .title-holder h3 a br{
+    display: none;
+}
+
+
+/*** Award Area Css ***/
+.single-team-style2 .inner {
+    padding-left: 0px;
+}
+.single-team-style2 .img-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+.single-team-style2 .text-box {
+    margin-top: 30px;
+    padding-left: 0px;
+    text-align: center;
+}
+.single-team-style2 .team-social-link {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*** Team Details Area Css ***/
+.team-details-image-box {
+    width: 290px;
+    height: 290px;
+}
+.team-details-content {
+    padding-top: 40px;
+}
+
+/*** Blog Page Css ***/
+.sidebar-content-box {
+    margin-top: 100px;
+}
+.single-blog-style1--standard .text-holder {
+    padding: 37px 0px 0;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+/*** Blog Page Two ***/
+.blog-details-text-box1 .img-box {
+    max-width: 700px;
+    margin-top: 50px;
+}
+.single-blog-style1--standard .text-holder .blog-title {
+    font-size: 28px;
+}
+.blog-details-quote-box {
+    padding: 42px 30px 46px;
+    padding-right: 30px;
+}
+
+.blog-details-tag-social-share-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tag-box {
+    display: block;
+    margin-bottom: 30px;
+}
+.tag-box .title {
+    margin-bottom: 15px;
+}
+.tag-box .tag-list {
+    padding-left: 0px;
+}
+
+.post-social-link {
+    padding-left: 0px;
+}
+.blog-details-social-links {
+    display: block;
+    text-align: center;
+}
+.blog-details-social-links .title {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.single-sidebar-box {
+    padding: 50px 25px 50px;
+}
+.sidebar-blog-post ul li .title-box {
+    padding-left: 15px;
+}
+.sidebar-blog-post ul li .title-box h4 {
+    font-size: 14px;
+}
+
+
+
+/***Contact Info Area ***/
+.single-contact-info-box{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation > li .megamenu {
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+}
+  
+    
+}
+
+
+
+@media only screen and (max-width: 1199px) { 
+
+
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}   
+.main-header .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+
+
+
+
+    
+
+
+
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {  
+
+/*** Header Style One Css ***/ 
+.main-menu .navigation> li {
+    margin-right: 25px;
+}
+.thm-space-box-2 {
+    width: 5px;
+}
+
+
+
+
+
+
+    
+}
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1650px) { 
+ 
+
+/*** Main Slider Css ***/ 
+.main-slider.style1 .auto-container {
+    padding-left: 150px;
+    max-width: 100%;
+} 
+.main-slider.style1 .owl-theme .owl-nav {
+    left: 50px;
+}
+.main-slider.style1  .slide-shape1{
+    width: 60%;
+}
+
+
+
+
+
+
+    
+        
+}
+    
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+
+
+/*** Main Slider Style1 Css ***/ 
+.main-slider.style1 .auto-container {
+    padding-left: 150px;
+    max-width: 100%;
+} 
+.main-slider.style1 .owl-theme .owl-nav {
+    left: 50px;
+}
+.main-slider.style1  .slide-shape1{
+    width: 60%;
+}
+.main-slider .content .big-title {
+    margin-bottom: 19px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 45px;
+    line-height: 1.30em;
+}
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+
+/*** Main Slider Style1 Css ***/ 
+.main-slider.style1 .auto-container {
+    padding-left: 150px;
+    max-width: 100%;
+} 
+.main-slider.style1 .owl-theme .owl-nav {
+    left: 50px;
+}
+.main-slider.style1  .slide-shape1{
+    display: none;
+}
+.main-slider .content .big-title {
+    margin-bottom: 19px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 45px;
+    line-height: 1.30em;
+}
+
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 {
+    margin-top: 221px;
+}
+.main-slider.style2 .owl-theme .owl-nav {
+    right: 100px;
+}
+
+/*** Main Slider Style3 Css ***/ 
+.main-slider.style3 .owl-theme .owl-nav {
+    right: 100px;
+}
+.main-slider.style3 .active .slide3-right-image {
+    opacity: 0.70;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/  
+.main-slider .owl-theme .owl-nav {
+    display: none;
+}  
+.main-slider .auto-container {
+    padding: 0px 50px;
+    padding-right: 50px;
+} 
+
+/*** Main Slider Style1 Css ***/ 
+.main-slider.style1 .slide {
+    min-height: 650px;
+}
+.main-slider.style1 .content {
+    min-height: 650px;
+}
+.main-slider.style1  .slide-shape1 {
+    display: none;
+}
+.main-slider.style1  .slide-shape3 {
+    display: none;
+}
+.main-slider.style1 .auto-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
+} 
+.main-slider.style1 .owl-theme .owl-nav {
+    display: none;
+}
+.main-slider.style1  .slide-shape1{
+    display: none;
+}
+.main-slider .content .big-title {
+    margin-bottom: 19px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 35px;
+    line-height: 1.30em;
+}
+.main-slider .content .big-title h2 br{
+    display: none;
+}
+
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 {
+    margin-top: 120px;
+}
+.main-slider.style2 .owl-theme .owl-nav {
+    right: 50px;
+}
+
+/*** Main Slider Style3 Css ***/ 
+.main-slider.style3 .owl-theme .owl-nav {
+    right: 50px;
+}
+.main-slider.style3 .active .slide3-right-image {
+    opacity: 0.60;
+}
+.main-slider.style3 .hand-shape {
+    display: none;
+}
+.main-slider.style3 .hand-shape-2 {
+    display: none;
+}
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 499px) {
+
+    
+/*** Main Slider Css ***/  
+.main-slider .owl-theme .owl-nav {
+    display: none;
+}  
+.main-slider .auto-container {
+    padding: 0px 20px;
+    padding-right: 20px;
+}
+
+
+/*** Main Slider Style1 Css ***/ 
+.main-slider.style1 .slide {
+    min-height: 650px;
+}
+.main-slider.style1 .content {
+    min-height: 650px;
+}
+.main-slider.style1  .slide-shape1 {
+    display: none;
+}
+.main-slider.style1  .slide-shape3 {
+    display: none;
+}
+.main-slider.style1 .auto-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+} 
+.main-slider.style1 .owl-theme .owl-nav {
+    display: none;
+}
+.main-slider.style1  .slide-shape1{
+    display: none;
+}
+.main-slider .content .big-title {
+    margin-bottom: 19px;
+}
+.main-slider .content .big-title h2 {
+    font-size: 30px;
+    line-height: 1.30em;
+}
+.main-slider .content .big-title h2 br{
+    display: none;
+}
+.main-slider .content .text {
+    margin-bottom: 21px;
+}
+
+
+/*** Main Slider Style2 Css ***/ 
+.main-slider.style2 {
+    margin-top: 120px;
+}
+.main-slider.style2 .owl-theme .owl-nav {
+    display: none;
+}
+
+
+/*** Main Slider Style3 Css ***/
+.main-slider.style3 .slide {
+    padding: 276px 0px 200px;
+} 
+.main-slider.style3 .owl-theme .owl-nav {
+    display: none;
+}
+.main-slider.style3 .active .slide3-right-image {
+    opacity: 0.40;
+}
+.main-slider.style3 .hand-shape {
+    display: none;
+}
+.main-slider.style3 .hand-shape-2 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+.order-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}  
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}  
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+
+
+}

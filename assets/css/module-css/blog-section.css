@@ -1,0 +1,461 @@
+
+/*** 
+=============================================
+    Blog Style1 Area Css
+=============================================
+***/
+.blog-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 150px 0 100px;
+}
+
+.single-blog-style1{
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    z-index: 9;
+}
+.single-blog-style1 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-blog-style1 .img-holder .inner {
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+} 
+.single-blog-style1 .img-holder .inner::before {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    -webkit-transform: translateY(-90%, -90%);
+    transform: translateY(-90%, -90%);
+    opacity: 0;
+    z-index: 1;
+}
+.single-blog-style1:hover .img-holder .inner::before{
+    -webkit-animation: circle .95s;
+    animation: circle .95s;
+}
+.single-blog-style1 .img-holder img{
+    width: 100%;
+    transform: scale(1.0);
+}
+.single-blog-style1:hover .img-holder img{
+    transform:scale(1.2) rotate(1deg);	
+}
+
+
+.single-blog-style1 .text-holder {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 37px 40px 34px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
+}
+.single-blog-style1 .text-holder .date-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.single-blog-style1 .text-holder .date-box h5 {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+}
+.single-blog-style1 .text-holder .date-box .border-box{
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    width: 25px;
+    height: 2px;
+    background: var(--thm-base);
+}
+
+.single-blog-style1 .text-holder .blog-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.single-blog-style1 .text-holder .blog-title a{
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style1 .text-holder .blog-title a:hover{
+    color: var(--thm-base);
+}
+
+.single-blog-style1 .text-holder .meta-info{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.single-blog-style1 .text-holder .meta-info li {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-right: 15px;
+    margin-right: 15px;
+    font-family: var(--thm-font);
+    text-transform: capitalize;
+}
+.single-blog-style1 .text-holder .meta-info li::before {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    bottom: 6px;
+    background: #e5e7ec;
+    width: 1px;
+    content: "";
+}
+.single-blog-style1 .text-holder .meta-info li:last-child:before{
+    display: none;
+}
+.single-blog-style1 .text-holder .meta-info li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.single-blog-style1 .text-holder .meta-info li a {
+    color: var(--thm-gray);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style1 .text-holder .meta-info li.name a{
+    color: #3c4858;
+    font-weight: 600;
+}
+.single-blog-style1 .text-holder .meta-info li a:hover{
+    color: var(--thm-base);    
+}
+
+
+
+/*** 
+=============================================
+    Blog Page Css
+=============================================
+***/
+.blog-page{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 150px 0 150px;
+}
+.blog-post-items{
+    position: relative;
+    display: block;
+}
+.blog-page.one .single-blog-style1{
+    margin-bottom: 30px;
+}
+
+
+
+/*** 
+=============================================
+    Blog Page Two Css
+=============================================
+***/
+.single-blog-style1--standard{
+    margin-bottom: 70px;
+}
+.single-blog-style1--standard .text-holder {
+    padding: 37px 0px 0;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.single-blog-style1--standard .text-holder .date-box {
+    padding-bottom: 17px;
+}
+.single-blog-style1--standard .text-holder .blog-title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.single-blog-style1--standard  .text-holder .meta-info {
+    margin-top: 12px;
+}
+.single-blog-style1--standard .text-holder .text{
+    position: relative;
+    display: block;
+    padding: 15px 0 16px;
+}
+.single-blog-style1--standard .text-holder .button-box{
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+.single-blog-style1--standard .text-holder .button-box .btn-one {
+    line-height: 50px;
+}
+
+
+
+/*** 
+=============================================
+    Blog Details Css
+=============================================
+***/
+.blog-details-content{
+    position: relative;
+    display: block;
+}
+
+.blog-details-content{
+    position: relative;
+    display: block;
+    z-index: 11;
+}
+.blog-details-content .single-blog-style1--standard {
+    margin-bottom: 62px;
+}
+.blog-details-content .single-blog-style1--standard .text-holder .text {
+    padding: 56px 0 0px;
+}
+.blog-details-content .single-blog-style1--standard .text-holder .text p{
+    margin: 0;
+}
+.blog-details-content .single-blog-style1--standard .text-holder .text p + p{
+    margin-top: 25px;
+}
+
+
+.blog-details-quote-box{
+    position: relative;
+    display: block;
+    background: #e6feff;
+    padding: 42px 50px 46px;
+    padding-right: 50px;
+    border-left: 3px solid var(--thm-base);
+}
+.blog-details-quote-box .text h3{
+    color: #222222;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.blog-details-quote-box .text .name{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+}
+.blog-details-quote-box .text .name .border-box{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: var(--thm-base);
+}
+.blog-details-quote-box .text .name h5{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    color: #051320;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.blog-details-text-box1{
+    position: relative;
+    display: block;
+    padding: 70px 0 70px;
+}
+.blog-details-text-box1 .text-box{
+    position: relative;
+    display: block;
+}
+.blog-details-text-box1 .text-box h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: -6px 0 26px;
+}
+.blog-details-text-box1 .text-box p{
+    margin: 0;
+}
+.blog-details-text-box1 .text-box p + p{
+    margin: 25px 0 0;
+}
+
+.blog-details-text-box1 .text-box ul{
+    position: relative;
+    display: block;
+    padding-top: 20px;
+}
+.blog-details-text-box1 .text-box ul li{
+    position: relative;
+    display: block;
+    line-height: 36px;
+}
+.blog-details-text-box1 .text-box ul li span:before{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding-right: 10px;
+    color: var(--thm-base);
+}
+.blog-details-text-box1 .img-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.blog-details-text-box1 .img-box img{
+    width: 100%;
+}
+
+
+.blog-details-text-box2{
+    position: relative;
+    display: block;
+    margin-top: -6px;
+}
+.blog-details-text-box2 h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 0 26px;
+}
+
+
+.blog-details-tag-social-share-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 46px;
+}
+.tag-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.tag-box .title{
+    position: relative;
+    display: block;
+}
+.tag-box .title h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.tag-box .tag-list{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+}
+.tag-box .tag-list ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.tag-box .tag-list ul li{
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.tag-box .tag-list ul li:last-child{
+    margin-right: 0;
+}
+.tag-box .tag-list ul li a{
+    position: relative;
+    display: block;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 20px 6px;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s; 
+}
+.tag-box .tag-list ul li a:hover{
+    color: #ffffff;
+    border-color: var(--thm-base);
+    background-color: var(--thm-base);
+}
+
+
+.blog-details-social-links {
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.blog-details-social-links .title{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.blog-details-social-links .title h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.post-social-link{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+}
+.post-social-link ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.post-social-link ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.post-social-link ul li:last-child{
+    margin-right: 0;
+}
+.post-social-link ul li a{
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #93959e;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.post-social-link ul li a:hover{
+    color: #ffffff;
+    border-color: var(--thm-base);
+    background-color: var(--thm-base);
+}
+
+
+
